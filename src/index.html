@@ -6,10 +6,21 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="stylesheets/application.css">
   <title>Document Title</title>
-</head>
+  </head>
 <body>
-  <h1>Welcome to CS 2350!</h1>
-  
+  <div id="words">
+    <h1>Howdy!</h1>
+    <p>I don't know if it was intentional, but you copy-pasted the instructions from the last activity onto this one. </p>
+  </div>
+   
+  <form>
+    <label for="name-f" >Name</label>
+    <input type="text" id="name-f" name="name-field" placeholder="John Doe">
+    <br>
+    <input type="button" onclick="displayMessage()" id="submit" value="Submit" class="buttons"  >
+    <input type="reset" id="reset" class="buttons" >
+  </form>
+ 
   <script src="javascripts/application.js"></script>
 </body>
 </html>
